@@ -1,0 +1,24 @@
+{
+    "name": "regeneration/contentpack",
+    "description": "Content Pack package for regeneration",
+    "authors": [
+        {
+            "name": "Wade Penistone",
+            "email": "wadespackages@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/controllers",
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Regeneration\\Contentpack\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
